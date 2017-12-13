@@ -11,6 +11,14 @@
   background-repeat: no-repeat;
   background-size: cover;
 
+  h1 {
+    font-size: 40px;
+    font-weight: normal;
+  }
+  h3 {
+    font-weight: normal;
+  }
+
 .first-section-content {
   display: flex;
 
@@ -123,8 +131,13 @@
     margin-left: auto;
   }
 
+  h3 {
+    font-size: 36px;
+  }
+
   p {
     font-weight: lighter;
+    font-size: 18px;
   }
 
   .third-section-content {
@@ -165,6 +178,9 @@
     font-weight: lighter;
     text-align: center;
 
+    h2 {
+      font-size: 36px;
+    }
     .bottom {
       width: 700px;
       input {
