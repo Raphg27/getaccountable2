@@ -1,0 +1,294 @@
+.body {
+    background-color: #F8F8F8;
+}
+
+.first-section {
+  background-color: #F8F8F8;
+  color: white;
+  height: 100vh;
+  display: flex;
+  background-image: url("first-back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+.first-section-content {
+  display: flex;
+
+  #logo {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    height: 30px;
+    display: flex;
+  }
+
+
+  .first-section-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 75px;
+  }
+
+  .first-section-image {
+    display: flex;
+    margin: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    img {
+      width: 200px;
+      height: 406px;
+    }
+  }
+}
+}
+
+.second-section {
+    background-image: url("back-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -7%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+
+    .icon {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin: 0 50px;
+
+      img {
+        width: 75px;
+      }
+
+      p {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 14px;
+      }
+
+      span {
+        font-size:14px;
+        color:#9E9E9E;
+      }
+
+      #icon-trophee {
+        color: #349EE4;
+        font-size: 20px;
+      }
+
+      #icon-1 {
+        color: #5640D0;
+      }
+
+      #icon-2 {
+        color: #EC24A1;
+      }
+      #icon-3 {
+        color: #1DCFA8;
+      }
+      #icon-4 {
+        color: #40BCD0;
+      }
+      #trophee {
+        width: 100px;
+      }
+    }
+
+    #trophee-section {
+      margin: auto;
+      margin-top: 100px;
+    }
+    .second-section-content {
+      display: flex;
+      justify-content: space-around;
+      margin: auto 75px;
+    }
+}
+
+
+.third-section {
+  background-image: url("back-3-landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+
+  #right-iphone {
+    margin-left: auto;
+  }
+
+  p {
+    font-weight: lighter;
+  }
+
+  .third-section-content {
+    display: flex;
+    margin: 75px auto;
+    width: 90%;
+
+    .third-section-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: auto 75px;
+    }
+
+    .third-section-image {
+      display: flex;
+      margin: auto 75px;
+
+      img {
+        width: 200px;
+        height: 406px;
+      }
+    }
+  }
+}
+
+.fourth-section {
+    background-image: url("back-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    color: #9842B4;
+    font-weight: lighter;
+    text-align: center;
+
+    .bottom {
+      width: 700px;
+      input {
+        border: 1px solid lightgrey;
+      }
+    }
+}
+
+footer {
+  display: flex;
+  color: white;
+  background-image: url("the-back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: lighter;
+  padding: 20px 50px;
+  justify-content: space-between;
+  font-size: 12px;
+  align-items: center;
+
+  img {
+    width: 50px;
+    margin-left: 20px;
+  }
+}
+
+/* Input form email */
+
+input {
+  border-radius: 5px;
+  padding: 5px;
+  color: darkgrey;
+  font-size: 15px;
+  font-weight: lighter;
+  border-width: 0px;
+  width: 60%;
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+/* Responsive Mobile */
+
+
+@media (max-width: 500px) {
+
+  .first-section {
+    height: 100%;
+  .first-section-content {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 90px;
+    .first-section-text {
+      margin-top: 30px;
+      margin-left: 50px;
+      h1 {
+        font-size: 20px;
+      }
+      h3 {
+        font-size: 14px;
+      }
+      input {
+        margin: 20px 0;
+        margin-bottom: 50px;
+        font-size: 11px;
+        width: 90%;
+      }
+    }
+}
+}
+
+.second-section {
+  height: 100%;
+  margin-top: -28%;
+
+  #trophee-section {
+    margin-top: 140px;
+  }
+  .second-section-content {
+    margin-top: 30px;
+  }
+}
+
+.third-section {
+  height: 100%;
+  .third-section-content {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+
+    .third-section-text {
+      h3 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 12px;
+      }
+    }
+
+    .third-section-image {
+      margin: auto;
+    }
+
+  }
+}
+
+
+.fourth-section {
+  height: 100%;
+  h2 {
+    font-size: 20px;
+    margin-top: 65px;
+  }
+  h3 {
+    font-size: 14px;
+  }
+}
+
+footer {
+  img {
+    width: 30px;
+    margin-bottom: 10px;
+  }
+}
+
+
+}
