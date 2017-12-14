@@ -1,3 +1,7 @@
+body {
+    letter-spacing: 1px;
+}
+
 .body {
     background-color: #F8F8F8;
 }
@@ -60,7 +64,6 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
 
     .icon {
       display: flex;
@@ -107,13 +110,12 @@
     }
 
     #trophee-section {
-      margin: auto;
       margin-top: 100px;
     }
     .second-section-content {
       display: flex;
       justify-content: space-around;
-      margin: auto 75px;
+      margin: 75px;
     }
 }
 
@@ -228,7 +230,7 @@ input {
 /* Responsive Mobile */
 
 
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) {
 
   .first-section {
     height: 100%;
@@ -238,6 +240,7 @@ input {
     margin-top: 90px;
     .first-section-text {
       margin-top: 30px;
+      margin-bottom: 90px;
       margin-left: 50px;
       h1 {
         font-size: 20px;
@@ -257,13 +260,14 @@ input {
 
 .second-section {
   height: 100%;
-  margin-top: -28%;
+  margin-top: -35%;
 
   #trophee-section {
     margin-top: 140px;
   }
   .second-section-content {
     margin-top: 30px;
+    flex-direction: column;
   }
 }
 
@@ -293,6 +297,10 @@ input {
 
 .fourth-section {
   height: 100%;
+
+  .bottom {
+    width: 100%;
+  }
   h2 {
     font-size: 20px;
     margin-top: 65px;
