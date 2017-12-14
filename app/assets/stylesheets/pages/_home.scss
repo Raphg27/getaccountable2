@@ -181,6 +181,9 @@
     h2 {
       font-size: 36px;
     }
+    h3 {
+      margin-bottom: 30px;
+    }
     .bottom {
       width: 700px;
       input {
@@ -305,6 +308,17 @@ footer {
     margin-bottom: 10px;
   }
 }
+}
 
+#anchor-home {
+  padding-top: 10px;
+  cursor: pointer;
 
+  h4 {
+    font-weight: lighter;
+  }
+}
+
+.fa-chevron-down {
+  margin-left: 12px;
 }

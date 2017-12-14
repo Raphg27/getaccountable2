@@ -17,3 +17,7 @@ var _pfy = _pfy || [];
   }
 }
 )();
+
+$('#anchor-home').click(function(){
+  $(document).scrollTop(3500) // any value you need
+});
