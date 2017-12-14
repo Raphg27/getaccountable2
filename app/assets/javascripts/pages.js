@@ -19,5 +19,5 @@ var _pfy = _pfy || [];
 )();
 
 $('#anchor-home').click(function(){
-  $(document).scrollTop(3500) // any value you need
+  $("html,body").animate({ scrollTop: $(document).height() }, 1000); // any value you need
 });
