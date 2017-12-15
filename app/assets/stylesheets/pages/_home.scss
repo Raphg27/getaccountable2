@@ -145,7 +145,7 @@ body {
   .third-section-content {
     display: flex;
     margin: 75px auto;
-    width: 90%;
+    width: 100%;
 
     .third-section-text {
       display: flex;
@@ -285,6 +285,10 @@ input {
       display: flex;
       flex-direction: column;
       font-size: 20px;
+
+      #right-iphone {
+        margin: auto 75px;
+      }
 
       .third-section-text {
         h3 {
