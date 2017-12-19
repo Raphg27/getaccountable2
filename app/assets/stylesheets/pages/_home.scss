@@ -40,6 +40,17 @@ body {
       flex-direction: column;
       justify-content: center;
       margin-left: 75px;
+
+      a {
+        color: white;
+        text-decoration: none;
+        cursor: default;
+        &:hover {
+          color: white;
+          text-decoration: none;
+          cursor: default;
+        }
+      }
     }
 
     .first-section-image {
