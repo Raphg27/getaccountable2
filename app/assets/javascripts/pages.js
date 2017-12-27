@@ -29,6 +29,7 @@ $(function () {
 
   $("#discover").click(function () {
     $(".second-section-discover").show();
+    $(window).scrollTop($('.second-section-discover').offset().top);
 });
 });
 
@@ -36,5 +37,6 @@ $(function () {
 $(function () {
   $("#user").click(function () {
     $(".second-section-discover").hide();
+    $(window).scrollTop($('.second-section-user').offset().top);
 });
 });
