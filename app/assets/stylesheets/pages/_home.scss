@@ -76,6 +76,14 @@ body {
   align-items: center;
   flex-direction: column;
 
+  #discover, #user {
+    cursor: pointer;
+  }
+
+  #arrow {
+    width: 15px;
+  }
+
   .icon {
     display: flex;
     align-items: center;
@@ -90,6 +98,7 @@ body {
       text-align: center;
       margin-top: 20px;
       font-size: 14px;
+      color: #9E9E9E;
     }
 
     span {
@@ -117,6 +126,12 @@ body {
     }
     #trophee {
       width: 100px;
+    }
+    #icon-2-acc {
+      color: #FD5D65;
+    }
+    #icon-3-acc {
+      color: #349EE4;
     }
   }
 
