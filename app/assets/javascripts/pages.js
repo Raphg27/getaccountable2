@@ -23,14 +23,18 @@ $('#anchor-home').click(function(){
 });
 
 
-$('#discover, #user').click(function(){
-   $(".second-section-discover, .second-section-user").toggle();
-});
 
 $(function () {
   $(".second-section-discover").hide();
 
   $("#discover").click(function () {
     $(".second-section-discover").show();
+});
+});
+
+
+$(function () {
+  $("#user").click(function () {
+    $(".second-section-discover").hide();
 });
 });
