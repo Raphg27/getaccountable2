@@ -21,3 +21,16 @@ var _pfy = _pfy || [];
 $('#anchor-home').click(function(){
   $("html,body").animate({ scrollTop: $(document).height() }, 1000); // any value you need
 });
+
+
+$('#discover, #user').click(function(){
+   $(".second-section-discover, .second-section-user").toggle();
+});
+
+$(function () {
+  $(".second-section-discover").hide();
+
+  $("#discover").click(function () {
+    $(".second-section-discover").show();
+});
+});
