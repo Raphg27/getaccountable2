@@ -5,6 +5,7 @@ gem 'devise'
 gem 'figaro'
 gem 'jbuilder', '~> 2.0'
 gem 'puma'
+gem 'pg'
 gem 'rails', '5.1.4'
 gem 'redis', '~> 3.3'
 
