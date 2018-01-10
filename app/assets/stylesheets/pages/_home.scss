@@ -1,27 +1,9 @@
 body {
   letter-spacing: 1px;
-  /* assistant-regular - latin */
-
-/*
-  @font-face {
-    font-family: 'Assistant';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../assistant-v2-latin-regular.eot');
-    src: local('Assistant'), local('Assistant-Regular'),
-         url('../assistant-v2-latin-regular.eot?#iefix') format('embedded-opentype'),
-         url('../assistant-v2-latin-regular.woff2') format('woff2'),
-         url('../assistant-v2-latin-regular.woff') format('woff'),
-         url('../assistant-v2-latin-regular.ttf') format('truetype'),
-         url('../assistant-v2-latin-regular.svg#Assistant') format('svg');
-}
-end google font code*/
-}
-
-.body {
-  background-color: #F8F8F8;
   font-family: 'Assistant', 'Helvetica', 'Lucida Grande', sans-serif;
+  background-color: #F8F8F8;
 }
+
 
 .first-section {
   background-color: #F8F8F8;
