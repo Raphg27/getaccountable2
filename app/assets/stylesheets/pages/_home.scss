@@ -1,7 +1,8 @@
 body {
   letter-spacing: 1px;
-  font-family: 'Assistant', 'Helvetica', 'Lucida Grande', sans-serif;
+  font-family: 'Assistant','Assistant Semibold', 'Helvetica', 'Lucida Grande', sans-serif;
   background-color: #F8F8F8;
+
 }
 
 
@@ -13,14 +14,15 @@ body {
   background-image: url("first-back.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 0px 12% 0px 12%;
 
   h1 {
     font-size: 40px;
-    font-weight: normal;
+    font-weight: 300;
     font-family: 'Assistant';
   }
   h3 {
-    font-weight: normal;
+    font-weight: 200;
     font-family: 'Assistant';
   }
 
@@ -29,9 +31,9 @@ body {
 
     #logo {
       position: absolute;
-      top: 30px;
-      left: 50px;
-      height: 30px;
+      top: 8%;
+      left: 12%;
+      height: 20px;
       display: flex;
     }
 
@@ -40,7 +42,7 @@ body {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      margin-left: 75px;
+      //margin-left: 75px;
 
       a {
         color: white;
@@ -55,6 +57,7 @@ body {
     }
 
     .first-section-image {
+      align-items:center;
       display: flex;
       margin: auto;
       margin-left: 50px;
@@ -76,6 +79,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding: 0px 12% 0px 12%;
 
   #discover, #user {
     cursor: pointer;
@@ -155,6 +159,7 @@ body {
   flex-direction: column;
   align-items: center;
   color: white;
+  padding: 0px 12% 0px 12%;
 
   #right-iphone {
     margin-left: auto;
@@ -206,6 +211,7 @@ body {
   color: #9842B4;
   font-weight: lighter;
   text-align: center;
+  padding: 0px 12% 0px 12%;
 
   h2 {
     font-size: 36px;
@@ -257,21 +263,39 @@ input {
 /* Responsive Mobile */
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 650px) {
 
   html, body {
     overflow-x: hidden !important;
     width: 100%;
     margin: 0px;
-    padding: 0px;
+    padding: 0;
+    text-align: center;
   }
 
   .first-section {
     height: 100%;
+    padding: 0px 0% 0px 0%;
+    align-items:center;
+    background-size: cover;
+    min-height: 930px;
+
     .first-section-content {
       display: flex;
       flex-direction: column-reverse;
-      margin-top: 90px;
+      margin-top: 50px;
+      align-items:center;
+
+        #logo {
+        position: absolute;
+        top: 5%;
+        left: auto;
+        height: 20px;
+        display: flex;
+        align-items:center;
+      }
+
+
       .first-section-text {
         margin-top: 30px;
         margin-bottom: 90px;
@@ -303,6 +327,7 @@ input {
     .second-section-content {
       margin-top: 30px;
       flex-direction: column;
+      align-items:center;
     }
   }
 
@@ -312,6 +337,7 @@ input {
       display: flex;
       flex-direction: column;
       font-size: 20px;
+      align-items:center;
 
       #right-iphone {
         margin: auto 75px;
@@ -332,6 +358,7 @@ input {
 
   .fourth-section {
     height: 100%;
+    align-items:center;
 
     .bottom {
       width: 90%;
