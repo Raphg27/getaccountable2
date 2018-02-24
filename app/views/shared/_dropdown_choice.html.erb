@@ -1,0 +1,20 @@
+<div class="dropdown language-setting">
+  <span onclick="openMenu();">
+    <% if params[:locale] == "fr" %>
+    <h4>français<i class="fa fa-chevron-down" aria-hidden="true"></i></h4>
+    <% elsif params[:locale]  == "en" %>
+    <h4>english<i class="fa fa-chevron-down" aria-hidden="true"></i></h4>
+    <% end %>
+  </span>
+  <div class="dropdown-menu-language" aria-labelledby="dropdownMenuButton">
+    <% if params[:locale] == "fr" %>
+    <%= link_to root_path(locale: "en"), class: "dropdown-item" do %>
+    <h4>english</i></h4>
+    <% end %>
+    <% elsif params[:locale] == "en" %>
+    <%= link_to root_path(locale: "fr"), class: "dropdown-item" do %>
+    <h4>français</i></h4>
+    <% end %>
+    <% end %>
+  </div>
+</div>

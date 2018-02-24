@@ -30,4 +30,65 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  #landing
+  your: "Your"
+  role: "banker, accountant & tax advisor"
+  smartphone: on your smartphone
+  assistant: "The financial assistant of smart"
+  target: '"self-employed workers.", "architects.", "lawyers.", "doctors.", "consultants.", "freelance journalists.", "superheroes.", "freelance developers.", "pharmacists.", "freelance designers."'
+  open_beta: "We are open for beta - leave us your email"
+
+  self_employed_first: "SELF-EMPLOYED WORKERS FIRST"
+  accountants: "Discover how accountants use Accountable."
+  future_obligations: "<strong>Always on top of your future tax payables </strong> and earnings."
+  no_receipt_hassle: "<strong>No receipt hassle. </strong>Forget the clean-your-admin sundays."
+  integrated_invoice: "<strong>Integrated invoicing </strong>that connects to your bank account."
+  tax_advise: "<strong>Personal day-to-day tax advice,</strong> based on your exact needs."
+
+  accountant_happy: "ACCOUNTABLE MAKES ACCOUNTANTS HAPPY"
+  benefits_accountant: "Discover what are the benefits of Accountable for self-employed workers."
+  access_records: "Access to all individual accounting records of your clients, including documents and proofs."
+  access_files: "Access to consolidated accounting files of your clients (reserved to supported software)."
+
+  tax_control: "Always on top of your next VAT, social contribution and tax payments."
+  anticipate_pay: "Anticipate how much you will need to pay"
+  money_available: "Know how much money is available for you to spend or invest at any point in time"
+  prepare_statements: "Prepare VAT and tax statements and automate payments (available soon)"
+
+  never_lose_receipt: "Never lose or miss a receipt. <br> Ever. Again."
+  scan_receipts: "Scan your receipts - we extract the amount, date and applicable VAT"
+  connect_bank: "Connect automatically to your bank transactions and make sure you do not miss a single receipt"
+  receipts_available: "Your receipts are directly available for you or your accountant. Everyone saves time."
+
+  invoices_integrated: "Your invoices, directly integrated."
+  beautiful_invoices: "Build beautiful invoices that your clients will want to pay instantly, or"
+  scan_invoices: "Scan any invoice or connect to your already existing invoicing solution"
+  notified: "Be notified every time an invoice gets paid"
+  flag_overdue: "Flag overdue invoices and send instant reminders to your client"
+
+  real_time_recommendations: "Real-time tax recommendations. No more end of year rush to book professional expenses."
+  optimise_tax: "Optimise your taxes by knowing how much to spend in which categories"
+  compare_professionals: "Compare to other professionals with similar activities and revenue"
+  real_life_accountant: "Meet a real-life chartered accoutant and tax advisor to get the extra advice"
+
+  value_prop: "Your <strong> banker, <br> accountant </strong>&  <strong>tax advisor </strong> <br> on your smartphone"
+  assistant_value_prop: "The financial assistant <br> of self-employed workers"
+
+  leave_email: "Leave us your email!"
+  contact: "contact us at "
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

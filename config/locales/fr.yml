@@ -1,0 +1,47 @@
+fr:
+  #landing
+  your: "Votre"
+  role: "banquier, comptable & fiscaliste"
+  smartphone: "sur votre smartphone"
+  assistant: "L'assistant financier des "
+  target: '"travailleurs indépendants.", "architectes.", "avocats.", "docteurs.", "consultants.", "journalistes freelance.", "superheros.", "développeurs freelance.", "pharmaciens.", "designers freelance."'
+  open_beta: "Rejoignez notre beta - laissez-nous votre email"
+
+  self_employed_first: "NOTRE MISSION: REDONNER LE CONTRÔLE AUX INDÉPENDANTS"
+  accountants: "Découvrez comment les comptables utilisent Accountable."
+  future_obligations: "<strong>Une visibilité complète sur votre finance et vos futures obligations fiscales.</strong>"
+  no_receipt_hassle: "<strong>La fin de la gestion des reçus et des tickets.</strong>"
+  integrated_invoice: "Votre facturation, <strong>totalement intégrée à votre compte bancaire. </strong>"
+  tax_advise: "<strong>Des recommandations fiscales personnalisées,</strong> toujours à portée de main."
+
+  accountant_happy: "ACCOUNTABLE REND LES COMPTABLES HEUREUX"
+  benefits_accountant: "Découvrer les avantages d'Accountable pour les travailleurs indépendants."
+  access_records: "Accéder à toutes les écritures comptables de vos clients, y compris les documents et les preuves."
+  access_files: "Accéder aux documents consolidés de vos clients (réservé au logiciel supporté)."
+
+  tax_control: "Un contrôle total sur vos impôts."
+  anticipate_pay: "Anticipez vos prochains règlements de cotisations sociales, de TVA et d'impôts."
+  money_available: "Sachez à tout moment combien vous gagnez et combien vous pouvez dépenser"
+  prepare_statements: "Automatisez la création et soumission de vos déclarations TVA (disponible bientôt)"
+
+  never_lose_receipt: "La fin de la gestion des reçus. <br> Oui, c'est possible."
+  scan_receipts: "Scannez vos reçus - nous extrayons le montant, la date et la TVA applicable"
+  connect_bank: "Connectez votre compte en banque professionnel et soyez certain de ne manquer aucun reçu"
+  receipts_available: "Vos documents sont directement disponibles pour vous ou votre comptable. Tout le monde gagne du temps."
+
+  invoices_integrated: "Vos factures, totalement intégrées."
+  beautiful_invoices: "Créez de belles factures que vos clients voudront payer directement"
+  scan_invoices: "Scannez ou connectez votre solution de facturation actuelle"
+  notified: "Soyez directement notifié lorsque vos factures sont payées"
+  flag_overdue: "Identifiez les factures en retard et, en 1 click, envoyez un rappel à votre client"
+
+  real_time_recommendations: "Des recommandations fiscales en continu. La fin du rush de fin d'année."
+  optimise_tax: "Optimisez vos taxes en sachant combien dépenser dans chaque catégorie"
+  compare_professionals: "Comparez-vous à d'autres professionnels avec des activités et revenus similaires"
+  real_life_accountant: "Rencontrez un expert-comptable fiscaliste en face-à-face pour bénéficier du conseil extra"
+
+  value_prop: "Votre <strong> banquier, <br> comptable </strong>&  <strong>fiscaliste </strong> <br> sur votre smartphone"
+  assistant_value_prop: "L'assistant financier <br> des travailleurs indépendants"
+
+  leave_email: "laissez-nous votre email!"
+  contact: "Contactez nous à "
