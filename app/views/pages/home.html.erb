@@ -5,9 +5,9 @@
 
     <%= image_tag "logo.png", id:"logo"%>
     <% if params[:locale].nil? %>
-      <%= render "shared/dropdown_default" %>
+    <%= render "shared/dropdown_default" %>
     <% else %>
-      <%= render "shared/dropdown_choice" %>
+    <%= render "shared/dropdown_choice" %>
     <% end %>
 
     <div class="first-section-text" data-aos="fade-right" data-aos-duration="2000">
@@ -21,8 +21,14 @@
         </a>
       </h3>
 
-      <div id="anchor-home">
-        <h4><%=t(:open_beta)%><i class="fa fa-chevron-down" aria-hidden="true"></i></h4>
+      <div class="form-contact">
+        <form>
+          <div class="question">
+            <input type="email" name="tester[profile][email]">
+            <label>🇧🇪<%=t(:open_beta)%> 💪</label>
+            <input type="submit" style="display:none;">
+          </div>
+        </form>
       </div>
     </div>
     <div class="first-section-image" data-aos="fade-left" data-aos-duration="2000">
@@ -156,10 +162,13 @@
 <div class="fourth-section">
   <h2><%= raw t(:value_prop)%></h2>
   <h3><%= raw t(:assistant_value_prop)%></h3>
-  <div class="prefinery-form-embed bottom">
+  <div class="form-contact">
     <form>
-      <input type="email" name="tester[profile][email]" placeholder="<%= t(:leave_email)%>">
-      <input type="submit" style="display:none;">
+      <div class="question">
+        <input type="email" name="tester[profile][email]" id="form-bottom">
+        <label id="label-bottom">🇧🇪<%=t(:open_beta)%> 💪</label>
+        <input type="submit" style="display:none;">
+      </div>
     </form>
   </div>
 </div>

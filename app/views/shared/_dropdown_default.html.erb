@@ -9,11 +9,11 @@
   <div class="dropdown-menu-language" aria-labelledby="dropdownMenuButton">
     <% if I18n.locale == :fr %>
     <%= link_to root_path(locale: "en"), class: "dropdown-item" do %>
-    <h4>english</i></h4>
+    <h4 class="choice-not-selected">english</i></h4>
     <% end %>
     <% else %>
     <%= link_to root_path(locale: "fr"), class: "dropdown-item" do %>
-    <h4>français</i></h4>
+    <h4 class="choice-not-selected">français</i></h4>
     <% end %>
     <% end %>
   </div>
