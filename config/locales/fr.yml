@@ -6,6 +6,7 @@ fr:
   assistant: "L'assistant financier des "
   target: '"travailleurs indépendants.", "architectes.", "avocats.", "docteurs.", "consultants.", "journalistes freelance.", "superheros.", "développeurs freelance.", "pharmaciens.", "designers freelance."'
   open_beta: " Rejoignez notre beta - laissez-nous votre email"
+  thank_you_mail: "Merci pour votre email!"
 
   self_employed_first: "NOTRE MISSION: REDONNER LE CONTRÔLE AUX INDÉPENDANTS"
   accountants: "Découvrez comment les comptables utilisent Accountable."
@@ -15,9 +16,9 @@ fr:
   tax_advise: "<strong>Des recommandations fiscales personnalisées,</strong> toujours à portée de main."
 
   accountant_happy: "ACCOUNTABLE REND LES COMPTABLES HEUREUX"
-  benefits_accountant: "Découvrer les avantages d'Accountable pour les travailleurs indépendants."
+  benefits_accountant: "  Découvrer les avantages d'Accountable pour les travailleurs indépendants."
   access_records: "Accéder à toutes les écritures comptables de vos clients, y compris les documents et les preuves."
-  access_files: "Accéder aux documents consolidés de vos clients (réservé au logiciel supporté)."
+  access_files: "Accéder aux documents consolidés de vos clients (réservé aux logiciels supportés)."
 
   tax_control: "Un contrôle total sur vos impôts."
   anticipate_pay: "Anticipez vos prochains règlements de cotisations sociales, de TVA et d'impôts."

@@ -95,6 +95,9 @@ body {
     }
   }
 }
+.thank-you {
+  display: none;
+}
 
 .second-section {
   background-image: url("back-2.png");
@@ -416,7 +419,7 @@ form {
 
       .first-section-image {
         img {
-          margin-right: 50px;
+          margin-right: 40px;
         }
       }
 
@@ -436,11 +439,11 @@ form {
         margin-right: 50px;
         h1 {
           font-size: 20px;
-          margin-right: 33px;
+          margin-right: 10px;
         }
         h3 {
           font-size: 14px;
-          margin-right: 50px;
+          margin-right: 32px;
         }
         input {
           margin: 20px 0;
@@ -529,6 +532,7 @@ form {
   }
 
   .form-contact {
+    margin-left: -6px !important;
     form {
       min-width: 325px;
       label {
