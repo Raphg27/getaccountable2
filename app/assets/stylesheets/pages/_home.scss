@@ -37,6 +37,25 @@ body {
       display: flex;
     }
 
+    .language-setting {
+      position: absolute;
+      top: 8%;
+      right: 12%;
+      font-weight: lighter;
+      h4 {
+        font-weight: lighter;
+        cursor: pointer;
+      }
+      .dropdown-menu-language {
+        display: none;
+      }
+      .dropdown-item {
+        color: white;
+        padding-top: 7px;
+        font-weight: normal;
+        text-decoration: none;
+      }
+    }
 
     .first-section-text {
       display: flex;
@@ -286,7 +305,7 @@ input {
       margin-top: 50px;
       align-items:center;
 
-        #logo {
+      #logo {
         position: absolute;
         top: 5%;
         left: auto;

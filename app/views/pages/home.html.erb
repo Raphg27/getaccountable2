@@ -2,20 +2,27 @@
 <%= provide(:keywords, 'accounting, robo-accounting, accountable, yuki, tellow, self-employed, freelance') %>
 <div class="first-section">
   <div class="first-section-content">
+
     <%= image_tag "logo.png", id:"logo"%>
+    <% if params[:locale].nil? %>
+      <%= render "shared/dropdown_default" %>
+    <% else %>
+      <%= render "shared/dropdown_choice" %>
+    <% end %>
+
     <div class="first-section-text" data-aos="fade-right" data-aos-duration="2000">
       <h1>
-        Your <span style="font-weight:500;">banker, accountant & tax advisor</span> on your smartphone
+        <%=t(:your)%> <span style="font-weight:500;"><%=t(:role)%> </span> <%=t(:smartphone)%>
       </h1>
       <h3>
-        <span>The financial assistant of smart </span>
-        <a href="" class="typewrite" data-period="20" data-type='[ "self-employed workers.", "architects.", "lawyers.", "doctors.", "consultants.", "freelance journalists.", "superheroes.", "freelance developers.", "pharmacists.", "freelance designers." ]'>
+        <span><%=t(:assistant)%> </span>
+        <a href="" class="typewrite" data-period="20" data-type='[ <%=t(:target)%> ]'>
           <span class="wrap"></span>
         </a>
       </h3>
 
       <div id="anchor-home">
-        <h4>We are open for beta - leave us your email<i class="fa fa-chevron-down" aria-hidden="true"></i></h4>
+        <h4><%=t(:open_beta)%><i class="fa fa-chevron-down" aria-hidden="true"></i></h4>
       </div>
     </div>
     <div class="first-section-image" data-aos="fade-left" data-aos-duration="2000">
@@ -26,59 +33,59 @@
 
 <div class="second-section">
   <div class="second-section-user">
-  <div class="icon" id="trophee-section" data-aos="fade-down" data-aos-duration="1000">
-    <%= image_tag "trophee.png", id:"trophee"%>
-    <p id="icon-trophee">SELF-EMPLOYED WORKERS FIRST</p>
-    <p id="discover">Discover how accountants use Accountable.   <%= image_tag "right-arrow.png", id:"arrow" %></p>
-  </div>
-
-  <div class="second-section-content">
-
-
-
-
-    <div class="icon" data-aos="fade-right" data-aos-duration="600">
-      <%= image_tag "icon-1.png"%>
-      <p id="icon-1"><strong>Always on top of your future tax payables </strong> and earnings.</p>
+    <div class="icon" id="trophee-section" data-aos="fade-down" data-aos-duration="1000">
+      <%= image_tag "trophee.png", id:"trophee"%>
+      <p id="icon-trophee"><%=t(:self_employed_first)%></p>
+      <p id="discover"><%=t(:accountants)%>   <%= image_tag "right-arrow.png", id:"arrow" %></p>
     </div>
 
+    <div class="second-section-content">
 
 
-    <div class="icon" data-aos="fade-up" data-aos-duration="600">
-      <%= image_tag "icon-2.png"%>
-      <p id="icon-2"><strong>No receipt hassle. </strong>Forget the clean-your-admin sundays.</p>
+
+
+      <div class="icon" data-aos="fade-right" data-aos-duration="600">
+        <%= image_tag "icon-1.png"%>
+        <p id="icon-1"><%= raw t(:future_obligations)%></p>
+      </div>
+
+
+
+      <div class="icon" data-aos="fade-up" data-aos-duration="600">
+        <%= image_tag "icon-2.png"%>
+        <p id="icon-2"><%= raw t(:no_receipt_hassle)%></p>
+      </div>
+
+
+      <div class="icon" data-aos="fade-up" data-aos-duration="600">
+        <%= image_tag "icon-3.png"%>
+        <p id="icon-3"><%= raw t(:integrated_invoice)%></p>
+      </div>
+
+
+      <div class="icon" data-aos="fade-left" data-aos-duration="600">
+        <%= image_tag "icon-4.png"%>
+        <p id="icon-4"><%= raw t(:tax_advise)%></p>
+      </div>
+
     </div>
-
-
-    <div class="icon" data-aos="fade-up" data-aos-duration="600">
-      <%= image_tag "icon-3.png"%>
-      <p id="icon-3"><strong>Integrated invoicing </strong>that connects to your bank account.</p>
-    </div>
-
-
-    <div class="icon" data-aos="fade-left" data-aos-duration="600">
-      <%= image_tag "icon-4.png"%>
-      <p id="icon-4"><strong>Personal day-to-day tax advice,</strong> based on your exact needs.</p>
-    </div>
-
-  </div>
   </div>
 
   <div class="second-section-discover">
     <div class="icon" id="trophee-section" data-aos="fade-down" data-aos-duration="1000">
       <%= image_tag "icon-1-acc.png", id:"trophee"%>
-      <p id="icon-trophee">ACCOUNTABLE MAKES ACCOUNTANTS HAPPY</p>
-      <p id="user"><%= image_tag "left-arrow.png", id:"arrow"%> Discover what are the benefits of Accountable for self-employed workers.</p>
+      <p id="icon-trophee"><%= t(:accountant_happy)%></p>
+      <p id="user"><%= image_tag "left-arrow.png", id:"arrow"%><%= t(:benefits_accountant)%> </p>
     </div>
     <div class="second-section-content">
-          <div class="icon" data-aos="fade-right" data-aos-duration="600">
-            <%= image_tag "icon-2-acc.png"%>
-            <p id="icon-2-acc">Access to all individual accounting records of your clients, including documents and proofs.</p>
-          </div>
-          <div class="icon" data-aos="fade-right" data-aos-duration="600">
-            <%= image_tag "icon-3-acc.png"%>
-            <p id="icon-3-acc">Access to consolidated accounting files of your clients (reserved to supported software).</p>
-          </div>
+      <div class="icon" data-aos="fade-right" data-aos-duration="600">
+        <%= image_tag "icon-2-acc.png"%>
+        <p id="icon-2-acc"><%= t(:access_records)%></p>
+      </div>
+      <div class="icon" data-aos="fade-right" data-aos-duration="600">
+        <%= image_tag "icon-3-acc.png"%>
+        <p id="icon-3-acc"><%= t(:access_files)%></p>
+      </div>
     </div>
   </div>
 
@@ -94,22 +101,22 @@
     </div>
     <div class="third-section-text" data-aos="fade-left" data-aos-duration="1500">
       <h3>
-        Always on top of your next VAT, social contribution and tax payments.
+        <%= t(:tax_control)%>
       </h3>
-      <p>Anticipate how much you will need to pay</p>
-      <p>Know how much money is available for you to spend or invest at any point in time</p>
-      <p>Prepare VAT and tax statements and automate payments (available soon)</p>
+      <p><%= t(:anticipate_pay)%></p>
+      <p><%= t(:money_available)%></p>
+      <p><%= t(:prepare_statements)%></p>
     </div>
   </div>
 
   <div class="third-section-content">
     <div class="third-section-text" data-aos="fade-right" data-aos-duration="1500">
       <h3>
-        Never lose or miss a receipt. <br> Ever. Again.
+        <%= raw t(:never_lose_receipt)%>
       </h3>
-      <p>Scan your receipts - we extract the amount, date and applicable VAT</p>
-      <p>Connect automatically to your bank transactions and make sure you do not miss a single receipt</p>
-      <p>Your receipts are directly available for you or your accountant. Everyone saves time.</p>
+      <p><%= t(:scan_receipts)%></p>
+      <p><%= t(:connect_bank)%></p>
+      <p><%= t(:receipts_available)%></p>
     </div>
     <div class="third-section-image" id= "right-iphone" data-aos="fade-left" data-aos-duration="1500">
       <%= image_tag "iphone-3.png" %>
@@ -122,23 +129,23 @@
     </div>
     <div class="third-section-text" data-aos="fade-left" data-aos-duration="1500">
       <h3>
-        Your invoices, directly integrated.
+        <%= t(:invoices_integrated)%>
       </h3>
-      <p>Build beautiful invoices that your clients will want to pay instantly, or</p>
-      <p>Scan any invoice or connect to your already existing invoicing solution</p>
-      <p>Be notified every time an invoice gets paid</p>
-      <p>Flag overdue invoices and send instant reminders to your client</p>
+      <p><%= t(:beautiful_invoices)%></p>
+      <p><%= t(:scan_invoices)%></p>
+      <p><%= t(:notified)%></p>
+      <p><%= t(:flag_overdue)%></p>
     </div>
   </div>
 
   <div class="third-section-content">
     <div class="third-section-text" data-aos="fade-right" data-aos-duration="1500">
       <h3>
-        Real-time tax recommendations. No more end of year rush to book professional expenses.
+        <%= t(:real_time_recommendations)%>
       </h3>
-      <p>Optimise your taxes by knowing how much to spend in which categories</p>
-      <p>Compare to other professionals with similar activities and revenue</p>
-      <p>Meet a real-life chartered accoutant and tax advisor to get the extra advice</p>
+      <p><%= t(:optimise_tax)%></p>
+      <p><%= t(:compare_professionals)%></p>
+      <p><%= t(:real_life_accountant)%></p>
     </div>
     <div class="third-section-image" id= "right-iphone" data-aos="fade-left" data-aos-duration="1500">
       <%= image_tag "iphone-5.png" %>
@@ -147,11 +154,11 @@
 </div>
 
 <div class="fourth-section">
-  <h2>Your <strong> banker, <br> accountant </strong>&  <strong>tax advisor </strong> <br> on your smartphone</h2>
-  <h3>The financial assistant <br> of self-employed workers</h3>
+  <h2><%= raw t(:value_prop)%></h2>
+  <h3><%= raw t(:assistant_value_prop)%></h3>
   <div class="prefinery-form-embed bottom">
     <form>
-      <input type="email" name="tester[profile][email]" placeholder="Leave us your email">
+      <input type="email" name="tester[profile][email]" placeholder="<%= t(:leave_email)%>">
       <input type="submit" style="display:none;">
     </form>
   </div>
@@ -161,7 +168,7 @@
 <footer>
   <div class="footer-text">
     <span>&copy; Copyright 2017, Accountable S.A. All rights reserved.</span> <br>
-    <span>contact us at hello@getaccountable.eu</span>
+    <span><%= t(:contact)%> hello@getaccountable.eu</span>
   </div>
   <div class="footer-links">
     <a href="https://www.linkedin.com/company/18175279/">
