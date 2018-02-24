@@ -3,7 +3,7 @@ class ApplicationController < ActionController::Base
   before_action :set_locale
 
   def set_locale
-    if extract_locale_from_accept_language_header == (:fr || :en)
+    if extract_locale_from_accept_language_header == :fr || extract_locale_from_accept_language_header == :en
       I18n.locale = params.fetch(:locale, extract_locale_from_accept_language_header).to_sym
     else
       I18n.locale = params.fetch(:locale, I18n.default_locale).to_sym
