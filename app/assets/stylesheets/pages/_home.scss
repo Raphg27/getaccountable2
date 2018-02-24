@@ -404,15 +404,22 @@ form {
       #logo {
         position: absolute;
         top: 5%;
-        left: auto;
+        left: 30%;
         height: 20px;
         display: flex;
         align-items:center;
+
+      }
+
+      .first-section-image {
+        img {
+          margin-right: 50px;
+        }
       }
 
       .language-setting {
         top: 9.5%;
-        right: 30%;
+        right: 36%;
       }
 
       .choice-not-selected {
@@ -422,13 +429,15 @@ form {
       .first-section-text {
         margin-top: 30px;
         margin-bottom: 90px;
-        margin-left: 50px;
+        margin-left: 30px;
         margin-right: 50px;
         h1 {
           font-size: 20px;
+          margin-right: 33px;
         }
         h3 {
           font-size: 14px;
+          margin-right: 50px;
         }
         input {
           margin: 20px 0;
