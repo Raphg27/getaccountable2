@@ -76,6 +76,9 @@ body {
           cursor: default;
         }
       }
+      .form-contact {
+        margin-left: -27px;
+      }
     }
 
     .first-section-image {
@@ -293,7 +296,7 @@ form {
   position: relative;
   display: inline-block;
   max-width: 700px;
-  min-width: 521px;
+  min-width: 550px;
   box-sizing: border-box;
   padding: 30px 25px;
   border-radius: 20px;
@@ -319,7 +322,7 @@ form {
     letter-spacing: 0.01em;
     font-size: 20px;
     box-sizing: border-box;
-    padding: 15px 15px;
+    padding: 15px 25px;
     display: block;
     position: absolute;
     margin-top: -50px;
