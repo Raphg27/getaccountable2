@@ -37,6 +37,7 @@ en:
   assistant: "The financial assistant of smart"
   target: '"self-employed workers.", "architects.", "lawyers.", "doctors.", "consultants.", "freelance journalists.", "superheroes.", "freelance developers.", "pharmacists.", "freelance designers."'
   open_beta: " We are open for beta - leave us your email"
+  thank_you_mail: "Thank you for your email!"
 
   self_employed_first: "SELF-EMPLOYED WORKERS FIRST"
   accountants: "Discover how accountants use Accountable."
@@ -46,7 +47,7 @@ en:
   tax_advise: "<strong>Personal day-to-day tax advice,</strong> based on your exact needs."
 
   accountant_happy: "ACCOUNTABLE MAKES ACCOUNTANTS HAPPY"
-  benefits_accountant: "Discover what are the benefits of Accountable for self-employed workers."
+  benefits_accountant: "  Discover what are the benefits of Accountable for self-employed workers."
   access_records: "Access to all individual accounting records of your clients, including documents and proofs."
   access_files: "Access to consolidated accounting files of your clients (reserved to supported software)."
 

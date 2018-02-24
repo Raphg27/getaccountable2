@@ -22,14 +22,15 @@
       </h3>
 
       <div class="form-contact">
-        <form>
+        <form id="html-form-email-1" data-remote="true">
           <div class="question">
             <input type="email" name="tester[profile][email]">
             <label>🇧🇪<%=t(:open_beta)%> 💪</label>
-            <input type="submit" style="display:none;">
+            <input type="submit" style="display:none;" onclick="displayThankYou();">
           </div>
         </form>
       </div>
+          <h3 class="thank-you"><%= t(:thank_you_mail) %></h3>
     </div>
     <div class="first-section-image" data-aos="fade-left" data-aos-duration="2000">
       <%= image_tag "iphone-1.png"%>
@@ -163,14 +164,15 @@
   <h2><%= raw t(:value_prop)%></h2>
   <h3><%= raw t(:assistant_value_prop)%></h3>
   <div class="form-contact">
-    <form>
+    <form id="html-form-email-2" data-remote="true">
       <div class="question">
         <input type="email" name="tester[profile][email]" id="form-bottom">
         <label id="label-bottom">🇧🇪<%=t(:open_beta)%> 💪</label>
-        <input type="submit" style="display:none;">
+        <input type="submit" style="display:none;"onclick="displayThankYou();">
       </div>
     </form>
   </div>
+  <h3 class="thank-you"> <%= t(:thank_you_mail) %></h3>
 </div>
 
 
