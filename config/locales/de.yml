@@ -1,0 +1,48 @@
+de:
+  #landing
+  your: "Dein"
+  role: "Banker, Buchhalter und Steuerfachmann"
+  smartphone: "auf deinem Smartphone"
+  assistant: "Der Finanzassistent der"
+  target: '"Selfbständigen.", "Architekten.", "Rechtsanwälte.", "Ärzte.", "Berater.", "Freiberufliche Journalisten.", "Superhelden.", "Freiberufliche Entwickler.", "Apotheker.", "freiberufliche Designer."'
+  open_beta: " Tritt unserer Beta bei - Lass uns dein e-mail"
+  thank_you_mail: "Vielen Dank für dein E-Mail!"
+
+  self_employed_first: "UNSERE MISSION: den Selfbständigen die Kontrolle zurück zu geben"
+  accountants: "Erfahren Sie, wie Buchhalter Accountable verwenden."
+  future_obligations: "<strong>Vollständige Sichtbarkeit deiner Finanzen und deiner zukünftigen Steuerverpflichtungen.</strong>"
+  no_receipt_hassle: "<strong>Das Ende der Belege und Ticketverwaltung.</strong>"
+  integrated_invoice: "Deine Abrechnung, <strong> vollständig in deinem Bankkonto integriert.</strong>"
+  tax_advise: "<strong>Personalisierte Steuerempfehlungen</strong>, immer zur Hand."
+
+  accountant_happy: "ACCOUNTABLE MACHT GLÜCKLICHE ACCOUNTORS"
+  benefits_accountant: "  Entdecken Sie die Vorteile von Accountable für Selbstständige."
+  access_records: "Greifen Sie auf alle Buchhaltungsunterlagen Ihrer Kunden zu, einschließlich Dokumenten und Nachweisen."
+  access_files: "Zugriff auf die konsolidierten Dokumente Ihrer Kunden (nur für unterstützte Software)."
+
+  tax_control: "Volle Kontrolle über deine Steuern."
+  anticipate_pay: "Erwarte deine nächsten Zahlungen von Sozialabgaben, Mehrwertsteuer und Steuern."
+  money_available: "Weiss jederzeit, wie viel du verdienst und wie viel du ausgeben kannst."
+  prepare_statements: "Automatisier deine Erstellung und Einreichung deines Mehrwertsteuererklärungen (in Kürze verfügbar)."
+
+  never_lose_receipt: "Das Ende der Belegverwaltung. <br> Ja, es ist möglich."
+  scan_receipts: "Scannen deine Belegen - wir extrahieren den Betrag, das Datum und die geltende Mehrwertsteuer"
+  connect_bank: "Verbinde dein Bankkonto und stellt dich sicher, dass du keine Quittung verpasst"
+  receipts_available: "Deine Dokumente stehen dir oder deiner Buchhalter direkt zur Verfügung. Jeder spart Zeit."
+
+  invoices_integrated: "Ihre Rechnungen, total integriert."
+  beautiful_invoices: "Erstellt schöne Rechnungen, die deine Kunden direkt bezahlen möchten"
+  scan_invoices: "Scannt oder verbinde deine aktuelle Abrechnungslösung"
+  notified: "Du wirdst direkt benachrichtigt, wenn deine Rechnungen bezahlt werden"
+  flag_overdue: "Identifizier verspätete Rechnungen und send mit einem Klick eine Erinnerung an deine Kunden"
+
+  real_time_recommendations: "Laufende Steuerempfehlungen Das Ende des Jahresanfangs."
+  optimise_tax: "Optimieren deine Steuern, indem du weisst, wie viel du in jeder Kategorie ausgeben müssen"
+  compare_professionals: "Vergleichen dich mit anderen Fachleuten mit ähnlichen Aktivitäten und Einkommen"
+  real_life_accountant: "Treff einen persönlichen Steuerberater, um von zusätzlichen Ratschlägen zu profitieren"
+
+  value_prop: "Dein <strong> Banker, <br> Buchhalter </strong>&  <strong>Steuerfachmann </strong> <br> auf deinem Smartphone"
+  assistant_value_prop: "Der Finanzassistent der <br> Selfbständigen"
+
+  leave_email: "Lass uns dein e-mail!"
+  contact: "Kontaktieren Sie uns unter"
