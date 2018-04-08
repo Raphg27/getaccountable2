@@ -16,16 +16,19 @@
     <% if params[:locale] == "fr" %>
     <%= link_to root_path(locale: "en"), class: "dropdown-item" do %>
     <h4 class="choice-not-selected">english</i></h4>
+    <%= link_to root_path(locale: "de"), class: "dropdown-item" do %>
     <h4 class="choice-not-selected">deutsch</i></h4>
     <% end %>
     <% elsif params[:locale] == "en" %>
     <%= link_to root_path(locale: "fr"), class: "dropdown-item" do %>
     <h4 class="choice-not-selected">français</i></h4>
+    <%= link_to root_path(locale: "de"), class: "dropdown-item" do %>
      <h4 class="choice-not-selected">deutsch</i></h4>
     <% elsif params[:locale] == "de" %>
-    <%= link_to root_path(locale: "fr"), class: "dropdown-item" do %>###
-    <h4 class="choice-not-selected">français</i></h4>###
-    <h4 class="choice-not-selected">english</i></h4>###
+    <%= link_to root_path(locale: "fr"), class: "dropdown-item" do %>
+    <h4 class="choice-not-selected">français</i></h4>
+    <%= link_to root_path(locale: "en"), class: "dropdown-item" do %>
+    <h4 class="choice-not-selected">english</i></h4>
     <% end %>
     <% end %>
   </div>
