@@ -4,6 +4,8 @@
     <h4>français<i class="fa fa-chevron-down" aria-hidden="true"></i></h4>
     <% elsif I18n.locale  == :en %>
     <h4>english<i class="fa fa-chevron-down" aria-hidden="true"></i></h4>
+    <% elsif I18n.locale  == :en %>
+    <h4>deutsch<i class="fa fa-chevron-down" aria-hidden="true"></i></h4>
     <% end %>
   </span>
   <div class="dropdown-menu-language" aria-labelledby="dropdownMenuButton">
@@ -11,9 +13,22 @@
     <%= link_to root_path(locale: "en"), class: "dropdown-item" do %>
     <h4 class="choice-not-selected">english</i></h4>
     <% end %>
-    <% else %>
+    <%= link_to root_path(locale: "de"), class: "dropdown-item" do %>
+    <h4 class="choice-not-selected">deutsch</i></h4>
+    <% end %>
+    <% elsif I18n.locale == :en %>
     <%= link_to root_path(locale: "fr"), class: "dropdown-item" do %>
     <h4 class="choice-not-selected">français</i></h4>
+    <% end %>
+    <%= link_to root_path(locale: "de"), class: "dropdown-item" do %>
+    <h4 class="choice-not-selected">deutsch</i></h4>
+    <% end %>
+    <% elsif I18n.locale == :de %>
+    <%= link_to root_path(locale: "fr"), class: "dropdown-item" do %>
+    <h4 class="choice-not-selected">français</i></h4>
+    <% end %>
+    <%= link_to root_path(locale: "en"), class: "dropdown-item" do %>
+    <h4 class="choice-not-selected">english</i></h4>
     <% end %>
     <% end %>
   </div>
