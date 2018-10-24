@@ -23,6 +23,7 @@
 
       <div class="form-contact">
         <form class="html-form-email-<%=@language%>" data-remote="true">
+          <input type="hidden" name="language" id="language" value="<%=@language%>">
           <div class="question">
             <input type="email" name="tester[profile][email]">
             <label><%=t(:open_beta)%> 💪</label>
